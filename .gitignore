@@ -1,0 +1,75 @@
+# -------------------------
+# System / OS generated files
+# -------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+*.lock
+
+# -------------------------
+# IDE / Editor files
+# -------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+backend/rf_model.pkl
+
+# VS Code (optional: comment this if you want to share settings)
+.vscode/
+
+# -------------------------
+# Flutter / Dart / Pub
+# -------------------------
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+*.pkl
+
+
+# -------------------------
+# Android specific
+# -------------------------
+/android/app/build/
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Keystore files (do not commit secrets!)
+android/app/key.properties
+android/app/*.keystore
+android/app/*.jks
+
+# -------------------------
+# iOS / macOS specific
+# -------------------------
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+Pods/
+DerivedData/
+
+# -------------------------
+# Symbolication / Obfuscation
+# -------------------------
+app.*.symbols
+app.*.map.json
+
+# -------------------------
+# Environment / Secrets
+# -------------------------
+.env
+*.env
